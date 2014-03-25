@@ -1,0 +1,27 @@
+//
+// Prefix header for all source files of the 'Test' target in the 'Test' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+// Box2D
+#define PTM_RATIO 32 // pixels to metre ratio
+//#define DRAW_BOX2D_WORLD
+
+//#define REVMOB_ID @"4fd619388d314b0008000213"
+#define REVMOB_ID @"532279cce269cb151c6a443a"
+#define CHARTBOOST_APPID @"5322767a2d42da486fd481aeApp"
+#define CHARTBOOST_APPSIG @"c6eaab122e27204c4a97a99ac6c9aa89772d99f2"
+
+// Levels In Game
+#define TOTAL_LEVELS 35
+#define INITIAL_LEVELS 10

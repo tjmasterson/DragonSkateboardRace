@@ -1,0 +1,5 @@
+"needpcforcharacter"	= "Need %d PC for unlock? \nAre you sure unlock this character?";
+"needpcforstage"	= "Need %d PC for unlock? \nAre you sure unlock this stage?";
+"needpcforpowerup"	= "Need %d PC for collect? \nAre you sure?";
+"notenough" = "You do not have not enough coins to unlock.";
+"notenoughforpowerup" = "You do not have enough coins.";
